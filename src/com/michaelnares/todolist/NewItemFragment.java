@@ -18,7 +18,7 @@ public class NewItemFragment extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
-        View view = inflater.inflate(R.layout.new_item_fragment, container, false);
+        View view = inflater.inflate(R.layout.todolist_item, container, false);
         final EditText myEditText = (EditText)view.findViewById(R.id.myEditText);
         myEditText.setOnKeyListener(new View.OnKeyListener() {
             @Override
